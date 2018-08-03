@@ -1,0 +1,10 @@
+Bundle-Name: apiaipersistance-api
+Bundle-SymbolicName: com.liferay.demo.apiai.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.demo.apiai.exception,\
+	com.liferay.demo.apiai.model,\
+	com.liferay.demo.apiai.service,\
+	com.liferay.demo.apiai.service.persistence
+-includeresource: META-INF/service.xml=../apiaipersistance-service/service.xml
+

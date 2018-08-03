@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<beans
+	default-destroy-method="destroy"
+	default-init-method="afterPropertiesSet"
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+>
+	<bean class="com.liferay.demo.apiai.service.impl.ApiAiDataLocalServiceImpl" id="com.liferay.demo.apiai.service.ApiAiDataLocalService" />
+	<bean class="com.liferay.demo.apiai.service.impl.ApiAiDataServiceImpl" id="com.liferay.demo.apiai.service.ApiAiDataService" />
+	<bean class="com.liferay.demo.apiai.service.persistence.impl.ApiAiDataPersistenceImpl" id="com.liferay.demo.apiai.service.persistence.ApiAiDataPersistence" parent="basePersistence" />
+</beans>
